@@ -45,7 +45,7 @@ will be installed for Gemini and Antigravity at `~/.gemini/antigravity/skills`.
   be installed for all detected agents.
 - `--skill` - Specific skill that you want to install. If omitted (and `--all` isn't specified),
   only the `android-cli` skill will be installed.
-- `--path` - Path to a project root in which to install the skills.
+- `--project` - Path to a project root in which to install the skills.
 
 ## Disclaimer
 
