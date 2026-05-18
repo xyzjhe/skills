@@ -46,7 +46,7 @@ metadata:
 
 - **Manual evaluation** : Inspect `proguard-rules.pro`.
 - **Library check** : Compare rules against [references/REDUNDANT-RULES.md](references/REDUNDANT-RULES.md). Suggest **Remove** for bundled rules.
-- **Custom rule check** : Use [references/KEEP-RULES-IMPACT-HIERARCHY.md](references/KEEP-RULES-IMPACT-HIERARCHY.md) and [references/REFLECTION-GUIDE.md](references/REFLECTION-GUIDE.md) to prioritize and evaluate. Suggest **Refine** for broad rules (e.g., package-wide).
+- **Custom rule check** : Use [references/KEEP-RULES-IMPACT-HIERARCHY.md](references/KEEP-RULES-IMPACT-HIERARCHY.md) and [references/REFLECTION-GUIDE.md](references/REFLECTION-GUIDE.md) to prioritize and evaluate. Suggest **Refine** for broad rules (for example, package-wide).
 - **Validation** : Suggest Macrobenchmark tests using [UI Automator](references/android/training/testing/other-components/ui-automator.md) for any proposed changes. Proceed to Step 3.
 
 ## Step 3. Report generation
@@ -57,7 +57,7 @@ metadata:
   or from manual findings if using Path B.
 - **Output** :
   Output ONLY the raw Markdown report in the chat.
-  Do NOT output conversational filler (e.g., "Here is your report...").
+  Do NOT output conversational filler (for example, "Here is your report...").
   Do NOT provide recommendations, next steps,
   or any other text outside of the sections defined in
   [references/REPORT_FORMAT.md](references/REPORT_FORMAT.md)
@@ -68,4 +68,4 @@ metadata:
 - **Strict output limit**: The final output MUST strictly be the Markdown report and nothing else.
 - **No code changes**: Research and suggest only; Do not modify files.
 - **No redundancy**: Do not explain R8 benefits or reference skill internal files in the report.
-- **Focus**: Omit sections (e.g., Subsumed Rules, Configuration) if no issues or items are found.
+- **Focus**: Omit sections (for example, Subsumed Rules, Configuration) if no issues or items are found.
