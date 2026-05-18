@@ -20,7 +20,7 @@ mention in this section
 ## 3. Optimization summary
 
 - **Optimization Score**: [X]% code is available for R8 optimizations
-(e.g., inlining, merging) .[100-X]% of codebase can't be optimized by R8.
+(e.g., inlining, merging). [100-X]% of codebase can't be optimized by R8.
 - **Shrinking Score**: [X]% of code will be optimized by R8 by removing
 unused classes, fields and methods. [100-X]% of codebase contains redundant
 classes, fields and methods that can't be removed by R8.
