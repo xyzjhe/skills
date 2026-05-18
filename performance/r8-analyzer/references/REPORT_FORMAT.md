@@ -26,7 +26,7 @@ unused classes, fields and methods. [100-X]% of codebase contains redundant
 classes, fields and methods that can't be removed by R8.
 - **Obfuscation Score**: [X]% of the codebase is available for R8 to obfuscate.
 
-Increasing these score increases the codebase available to R8 for optimizations.
+Increasing these scores increases the codebase available to R8 for optimizations.
 
 ## 4. Keep rules evaluation
 
