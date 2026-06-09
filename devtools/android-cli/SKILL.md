@@ -1,6 +1,6 @@
 ---
 name: android-cli
-description: Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the `android` command-line tool.
+description: Provides instructions for using the `android` CLI and also shows how to install it. The `android` command-line tool lets you create new projects, build apps, manage virtual devices, interact with emulators (including screenshots and UI inspection), manage SDK components, look up official Android documentation, and discover and install official Android skills.
 license: Complete terms in LICENSE.txt
 metadata:
   author: Google LLC
